@@ -5,7 +5,10 @@
 
   <h1 align='center'>No Sql Module 18 Challenge <h1/> 
 
-  https://drive.google.com/file/d/1NADZD68F_UfCiL6kONzxYqlLu6RGBb5y/view
+  <img width="938" alt="image" src="https://user-images.githubusercontent.com/91630948/172894914-340e5255-f1bb-49ef-a357-be4232aeca5b.png">
+
+## This url lead to screencastify video showing the functionality of the app
+  !https://drive.google.com/file/d/1NADZD68F_UfCiL6kONzxYqlLu6RGBb5y/view
 
 
   ## Description
