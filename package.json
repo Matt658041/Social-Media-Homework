@@ -1,0 +1,24 @@
+{
+  "name": "social-media-homework",
+  "version": "1.0.0",
+  "description": "![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Matt658041/Social-Media-Homework.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Matt658041/Social-Media-Homework/issues"
+  },
+  "homepage": "https://github.com/Matt658041/Social-Media-Homework#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "mongoose": "^6.3.6"
+  }
+}
