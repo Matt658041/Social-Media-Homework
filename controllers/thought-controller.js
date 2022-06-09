@@ -2,7 +2,7 @@ const { Thought, User } = require('../models');
 
 const thoughtController = {
   // add thought to user
-  addthought({ params, body }, res) {
+  addThought({ params, body }, res) {
     console.log(params);
     Thought.create(body)
       .then(({ _id }) => {
