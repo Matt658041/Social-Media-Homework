@@ -3,7 +3,7 @@ const { Thought, User } = require('../models');
 const thoughtController = {
   // add thought to user
   addThought({ params, body }, res) {
-    console.log(params);
+    console.log(body);
     Thought.create(body)
       .then(({ _id }) => {
         return User.findOneAndUpdate(
@@ -28,7 +28,7 @@ const thoughtController = {
     Thought.findOneAndUpdate(
       { _id: params.thoughtId },
       { $push: { reactions: body } },
-      { new: true, runValidators: true }
+      { new: true }
     )
       .then(dbUserData => {
         if (!dbUserData) {
@@ -63,7 +63,7 @@ const thoughtController = {
       .catch(err => res.json(err));
   },
   // remove reply/reaction
-  removeReaction({ params }, res) {
+  removeReaction({ params, }, res) {
     Thought.findOneAndUpdate(
       { _id: params.thoughtId },
       { $pull: { reactions: { reactionsId: params.reactionsId } } },
